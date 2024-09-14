@@ -22,9 +22,11 @@
 }
 
 .cabecalho__navegacao--lista {
+    list-style: none;  
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+    
 }
 
 .cabecalho__navegacao--item a {
@@ -184,6 +186,16 @@ img {
     margin-bottom: 112px;
 }
 
+.busca__categorias-lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+}
+
 .busca__categoria {
     color: var(--grafite, #222);
     text-align: center;
@@ -193,11 +205,19 @@ img {
     line-height: normal;
     border-radius: 8px;
     background: var(--cinza-claro, #F5F5F5);
-    padding: 24px 16px;
+    padding: 0;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+figure.busca__categoria--icone {
+    margin: 0;
+    padding: 0;
 }
 
 span.material-symbols-outlined {
@@ -206,7 +226,21 @@ span.material-symbols-outlined {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
+
+a.busca__categoria--link {
+    padding: 16px 24px;
+    text-decoration: none; 
+    color: inherit; 
+    display: block;
+}
+
+span.busca__categoria--nome {
+    margin-top: 12px;
+    display: block;
+}
+
 
 .destinos__lista {
     display: flex;

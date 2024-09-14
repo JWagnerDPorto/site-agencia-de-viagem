@@ -52,8 +52,9 @@
     <main class="container">
 
         <section class="ofertas">
+
             <div class="ofertas__titulo">
-                <div class="ofertas__titulo--texto">Ofertas da semana</div>
+                <h2 class="ofertas__titulo--texto">Ofertas da semana</h2>
                 <div class="ofertas__titulo--sublinhado"></div>
             </div>
 
@@ -68,138 +69,142 @@
                                     <h2 class="ofertas__card--destino-nome">Japão</h2>
                                 </header>
                                 <div class="ofertas__card--preco">R$ 4000</div>
-                                <div class="ofertas__card--botao" aria-label="Ver detalhes da oferta Japão">
-                                    <a href="#" class="ofertas__card--botao-texto">Ver detalhes</a>
-                                </div>
+                                <a href="#" class="ofertas__card--botao" aria-label="Ver detalhes da oferta Japão">
+                                    <span class="ofertas__card--botao-texto">Ver detalhes</span>
+                                </a>
                             </div>
                         </div>
                     </section>
 
-                    <div class="ofertas__cards--item  ofertas__cards--san-andreas">
+                    <section class="ofertas__cards--item ofertas__cards--san-andreas">
                         <div class="ofertas__card">
                             <div class="ofertas__card--conteudo">
-                                <div class="ofertas__card--destino">
+                                <header class="ofertas__card--destino">
                                     <div class="ofertas__card--destino-tipo">HOTEL+AÉREO</div>
-                                    <b class="ofertas__card--destino-nome">San Andreas</b>
-                                </div>
+                                    <h2 class="ofertas__card--destino-nome">San Andreas</h2>
+                                </header>
                                 <div class="ofertas__card--preco">R$ 3000</div>
-                                <div class="ofertas__card--botao">
+                                <a href="#" class="ofertas__card--botao" aria-label="Ver detalhes da oferta San Andreas">
                                     <span class="ofertas__card--botao-texto">Ver detalhes</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="ofertas__cards--item  ofertas__cards--paraiba">
+                    </section>
+                    
+                    <section class="ofertas__cards--item ofertas__cards--paraiba">
                         <div class="ofertas__card">
                             <div class="ofertas__card--conteudo">
-                                <div class="ofertas__card--destino">
+                                <header class="ofertas__card--destino">
                                     <div class="ofertas__card--destino-tipo">ALL INCLUSIVE+AÉREO</div>
-                                    <b class="ofertas__card--destino-nome">Paraíba</b>
-                                </div>
+                                    <h2 class="ofertas__card--destino-nome">Paraíba</h2>
+                                </header>
                                 <div class="ofertas__card--preco">R$ 1200</div>
-                                <div class="ofertas__card--botao">
+                                <a href="#" class="ofertas__card--botao" aria-label="Ver detalhes da oferta Paraíba">
                                     <span class="ofertas__card--botao-texto">Ver detalhes</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="ofertas__cards--item  ofertas__cards--manaus">
+                    </section>
+                    
+                    <section class="ofertas__cards--item ofertas__cards--manaus">
                         <div class="ofertas__card">
                             <div class="ofertas__card--conteudo">
-                                <div class="ofertas__card--destino">
+                                <header class="ofertas__card--destino">
                                     <div class="ofertas__card--destino-tipo">ALL INCLUSIVE+AÉREO</div>
-                                    <b class="ofertas__card--destino-nome">Manaus</b>
-                                </div>
+                                    <h2 class="ofertas__card--destino-nome">Manaus</h2>
+                                </header>
                                 <div class="ofertas__card--preco">R$ 1600</div>
-                                <div class="ofertas__card--botao">
+                                <a href="#" class="ofertas__card--botao" aria-label="Ver detalhes da oferta Manaus">
                                     <span class="ofertas__card--botao-texto">Ver detalhes</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
-                    </div>
+                    </section>
+                    
+
                 </div>
             </div>
         </section>
 
-        <div class="busca">
-            <div class="busca__titulo">
-                <div class="divusca__titulo--texto">Busque por Categoria</div>
+        <section class="busca">
+            
+            <header class="busca__titulo">
+                <h2 class="busca__titulo--texto">Busque por Categoria</h2>
                 <div class="busca__titulo--sublinhado"></div>
-            </div>
-            <div class="busca__categorias">
-                <div class="busca__categoria">
-                    <div class="busca__categoria--icone">
-                        <span class="material-symbols-outlined">
-                            hiking
-                        </span>
-                    </div>
-                    <b class="busca__categoria--nome">Pacotes Nacionais</b>
-                </div>
-                <div class="busca__categoria">
-                    <div class="busca__categoria--icone">
-                        <span class="material-symbols-outlined">
-                            flight
-                        </span>
-                    </div>
-                    <b class="busca__categoria--nome">Pacotes Internacionais</b>
-                </div>
-                <div class="busca__categoria">
-                    <div class="busca__categoria--icone">
-                        <span class="material-symbols-outlined">
-                            airport_shuttle
-                        </span>
-                    </div>
-                    <b class="busca__categoria--nome">Transfer</b>
-                </div>
-                <div class="busca__categoria">
-                    <div class="busca__categoria--icone">
-                        <span class="material-symbols-outlined">
-                            vpn_lock
-                        </span>
-                    </div>
-                    <b class="busca__categoria--nome">Seguro Viagem</b>
-                </div>
-            </div>
-        </div>
+            </header>
 
-        <div class="destinos">
-            <div class="destinos__titulo">
-                <div class="destinos__titulo--texto">Destinos Populares</div>
+            <nav class="busca__categorias">
+                <ul class="busca__categorias-lista">
+
+                    <li class="busca__categoria" aria-label="Pacotes Nacionais">
+                        <a href="#" class="busca__categoria--link">
+                            <figure class="busca__categoria--icone">
+                                <span class="material-symbols-outlined">hiking</span>
+                            </figure>
+                            <span class="busca__categoria--nome">Pacotes Nacionais</span>
+                        </a>
+                    </li>
+
+                    <li class="busca__categoria" aria-label="Pacotes Internacionais">
+                        <a href="#" class="busca__categoria--link">
+                            <figure class="busca__categoria--icone">
+                                <span class="material-symbols-outlined">flight</span>
+                            </figure>
+                            <span class="busca__categoria--nome">Pacotes Internacionais</span>
+                        </a>
+                    </li>
+                    
+                    <li class="busca__categoria" aria-label="Transfer">
+                        <a href="#" class="busca__categoria--link">
+                            <figure class="busca__categoria--icone">
+                                <span class="material-symbols-outlined">airport_shuttle</span>
+                            </figure>
+                            <span class="busca__categoria--nome">Transfer</span>
+                        </a>
+                    </li>
+                    
+                    <li class="busca__categoria" aria-label="Seguro Viagem">
+                        <a href="#" class="busca__categoria--link">
+                            <figure class="busca__categoria--icone">
+                                <span class="material-symbols-outlined">vpn_lock</span>
+                            </figure>
+                            <span class="busca__categoria--nome">Seguro Viagem</span>
+                        </a>
+                    </li>
+                    
+
+                </ul>
+            </nav>
+        </section>
+
+        <section class="destinos">
+            <header class="destinos__titulo">
+                <h2 class="destinos__titulo--texto">Destinos Populares</h2>
                 <div class="destinos__titulo--sublinhado"></div>
-            </div>
+            </header>
             <div class="destinos__lista">
-                <div class="destinos__item">
-                    <img class="destinos__item--image" alt="" src="./img/tokyo@2x.png" />
-                    <b class="destinos__item--nome">Tokyo</b>
-                    <div class="destinos__item--descricao">
-                        Tóquio é uma cidade vibrante e cosmopolita, com seus templos
-                        históricos, museus de arte moderna e arranha-céus icônicos.
-                        Não perca a chance de mergulhar em sua atmosfera fascinante.
-                    </div>
-                    <div class="destinos__item--botao-container">
-                        <div class="destinos__item--botao">
-                            <span class="destinos__item--botao-texto">Ver detalhes</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="destinos__item">
-                    <img class="destinos__item--image" alt="" src="./img/osaka@2x.png" />
-                    <b class="destinos__item--nome">Osaka</b>
-                    <div class="destinos__item--descricao">
-                        Osaka é uma cidade agitada e moderna no Japãos. A cidade é
-                        famosa por sua gastronomia deliciosa e por ser um excelente
-                        ponto de partida para explorar outras cidades japonesas
-                        próximas.
-                    </div>
-                    <div class="destinos__item--botao-container">
-                        <div class="destinos__item--botao">
-                            <span class="destinos__item--botao-texto">Ver detalhes</span>
-                        </div>
-                    </div>
-                </div>
+                <article class="destinos__item">
+                    <img class="destinos__item--image" src="./img/tokyo@2x.png" alt="Imagem de Tokyo" />
+                    <h3 class="destinos__item--nome">Tokyo</h3>
+                    <p class="destinos__item--descricao">
+                        Tóquio é uma cidade vibrante e cosmopolita, com seus templos históricos, museus de arte moderna e arranha-céus icônicos. Não perca a chance de mergulhar em sua atmosfera fascinante.
+                    </p>
+                    <a href="#" class="destinos__item--botao" aria-label="Ver detalhes sobre Tokyo">
+                        <span class="destinos__item--botao-texto">Ver detalhes</span>
+                    </a>
+                </article>
+                <article class="destinos__item">
+                    <img class="destinos__item--image" src="./img/osaka@2x.png" alt="Imagem de Osaka" />
+                    <h3 class="destinos__item--nome">Osaka</h3>
+                    <p class="destinos__item--descricao">
+                        Osaka é uma cidade agitada e moderna no Japão. A cidade é famosa por sua gastronomia deliciosa e por ser um excelente ponto de partida para explorar outras cidades japonesas próximas.
+                    </p>
+                    <a href="#" class="destinos__item--botao" aria-label="Ver detalhes sobre Osaka">
+                        <span class="destinos__item--botao-texto">Ver detalhes</span>
+                    </a>
+                </article>
             </div>
-        </div>
-
+        </section>
 
         <div class="pagamento">
             <div class="pagamento__titulo">
