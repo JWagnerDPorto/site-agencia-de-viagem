@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <!-- Cabeçalho -->
     <header class="cabecalho__container">
         <div class="cabecalho">
             <a>
@@ -24,20 +25,15 @@
             </a>
             <nav class="cabecalho__navegacao" role="navigation" aria-label="Navegação principal">
                 <ul class="cabecalho__navegacao--lista">
-                    <li class="cabecalho__navegacao--item">
-                        <a href="">Blog</a>
-                    </li>
-                    <li class="cabecalho__navegacao--item">
-                        <a href="">Pacotes de viagem</a>
-                    </li>
-                    <li class="cabecalho__navegacao--item">
-                        <a href="">Contato</a>
-                    </li>
+                    <li class="cabecalho__navegacao--item"><a href="">Blog</a></li>
+                    <li class="cabecalho__navegacao--item"><a href="">Pacotes de viagem</a></li>
+                    <li class="cabecalho__navegacao--item"><a href="">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- Seção Banner -->
     <section class="banner">
         <figure class="banner__wrapper">
             <img class="banner__img" src="./img/maldivas@2x.png" alt="Homem em um caiaque, em um rio">
@@ -49,24 +45,24 @@
         </figure>
     </section>
 
+    <!-- Conteúdo principal -->
     <main class="container">
-
+        <!-- Seção de Ofertas -->
         <section class="ofertas">
-
-            <div class="ofertas__titulo">
+            <header class="ofertas__titulo">
                 <h2 class="ofertas__titulo--texto">Ofertas da semana</h2>
                 <div class="ofertas__titulo--sublinhado"></div>
-            </div>
+            </header>
 
             <div class="ofertas__cards">
                 <div class="ofertas__cards--grupo">
-
+                    <!-- Card de oferta -->
                     <section class="ofertas__cards--item ofertas__cards--japao">
                         <div class="ofertas__card">
                             <div class="ofertas__card--conteudo">
                                 <header class="ofertas__card--destino">
                                     <div class="ofertas__card--destino-tipo">HOTEL+AÉREO</div>
-                                    <h2 class="ofertas__card--destino-nome">Japão</h2>
+                                    <h3 class="ofertas__card--destino-nome">Japão</h3>
                                 </header>
                                 <div class="ofertas__card--preco">R$ 4000</div>
                                 <a href="#" class="ofertas__card--botao" aria-label="Ver detalhes da oferta Japão">
@@ -81,7 +77,7 @@
                             <div class="ofertas__card--conteudo">
                                 <header class="ofertas__card--destino">
                                     <div class="ofertas__card--destino-tipo">HOTEL+AÉREO</div>
-                                    <h2 class="ofertas__card--destino-nome">San Andreas</h2>
+                                    <h3 class="ofertas__card--destino-nome">San Andreas</h3>
                                 </header>
                                 <div class="ofertas__card--preco">R$ 3000</div>
                                 <a href="#" class="ofertas__card--botao" aria-label="Ver detalhes da oferta San Andreas">
@@ -96,7 +92,7 @@
                             <div class="ofertas__card--conteudo">
                                 <header class="ofertas__card--destino">
                                     <div class="ofertas__card--destino-tipo">ALL INCLUSIVE+AÉREO</div>
-                                    <h2 class="ofertas__card--destino-nome">Paraíba</h2>
+                                    <h3 class="ofertas__card--destino-nome">Paraíba</h3>
                                 </header>
                                 <div class="ofertas__card--preco">R$ 1200</div>
                                 <a href="#" class="ofertas__card--botao" aria-label="Ver detalhes da oferta Paraíba">
@@ -111,7 +107,7 @@
                             <div class="ofertas__card--conteudo">
                                 <header class="ofertas__card--destino">
                                     <div class="ofertas__card--destino-tipo">ALL INCLUSIVE+AÉREO</div>
-                                    <h2 class="ofertas__card--destino-nome">Manaus</h2>
+                                    <h3 class="ofertas__card--destino-nome">Manaus</h3>
                                 </header>
                                 <div class="ofertas__card--preco">R$ 1600</div>
                                 <a href="#" class="ofertas__card--botao" aria-label="Ver detalhes da oferta Manaus">
@@ -126,8 +122,8 @@
             </div>
         </section>
 
+        <!-- Seção de Busca por Categoria -->
         <section class="busca">
-            
             <header class="busca__titulo">
                 <h2 class="busca__titulo--texto">Busque por Categoria</h2>
                 <div class="busca__titulo--sublinhado"></div>
@@ -171,21 +167,18 @@
                             <span class="busca__categoria--nome">Seguro Viagem</span>
                         </a>
                     </li>
-                    
-
                 </ul>
             </nav>
         </section>
-
+        
+        <!-- Seção de Destinos Populares -->
         <section class="destinos">
-
             <header class="destinos__titulo">
                 <h2 class="destinos__titulo--texto">Destinos Populares</h2>
                 <div class="destinos__titulo--sublinhado"></div>
             </header>
 
             <div class="destinos__lista">
-
                 <article class="destinos__item">
                     <img class="destinos__item--image" src="./img/tokyo@2x.png" alt="Imagem de Tokyo" />
                     <h3 class="destinos__item--nome">Tokyo</h3>
@@ -211,6 +204,7 @@
             </div>
         </section>
 
+        <!-- Seção de Pagamento -->
         <section class="pagamento">
             <header class="pagamento__titulo">
                 <h2 class="pagamento__titulo--texto">Condições de Pagamento</h2>
@@ -242,111 +236,104 @@
             </div>
         </section>
         
-
-        <div class="depoimentos">
-            <div class="depoimentos__titulo">
-                <b class="depoimentos__titulo--texto">Depoimentos</b>
+        <!-- Seção de Depoimentos -->
+        <section class="depoimentos">
+            <header class="depoimentos__titulo">
+                <h2 class="depoimentos__titulo--texto">Depoimentos</h2>
                 <div class="depoimentos__titulo--sublinhado"></div>
-            </div>
+            </header>
+            
             <div class="depoimentos__wrapper">
-                <div class="depoimentos__item">
-                    <div class="depoimentos__texto">
-                        A Jornada foi uma das melhores agências de viagens que eu
-                        já experimentei. O serviço ao cliente foi excepcional, e
-                        toda a equipe foi muito atenciosa e prestativa.
-                    </div>
-                    <div class="depoimentos__autor">
-                        <img class="depoimentos__autor--foto" src="./img/ellipse-1@2x.png" />
+                <article class="depoimentos__item">
+                    <blockquote class="depoimentos__texto">
+                        A Jornada foi uma das melhores agências de viagens que eu já experimentei. O serviço ao cliente foi excepcional, e toda a equipe foi muito atenciosa e prestativa.
+                    </blockquote>
+                    <footer class="depoimentos__autor">
+                        <img class="depoimentos__autor--foto" src="./img/ellipse-1@2x.png" alt="Foto de Talita Villas Boas" />
                         <div class="depoimentos__autor--info">
                             <b class="depoimentos__autor--nome">Talita Villas Boas</b>
                             <div class="depoimentos__autor--avaliacao">
-                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="depoimentos__item">
-                    <div class="depoimentos__texto">
-                        Recomendo fortemente a agência de viagens Jornada. Eles
-                        oferecem um serviço personalizado e de alta qualidade que
-                        excedeu minhas expectativas em minha última viagem.
-                    </div>
-                    <div class="depoimentos__autor">
-                        <img class="depoimentos__autor--foto" alt="" src="./img/avatar-amari@2x.png" />
+                    </footer>
+                </article>
+
+                <article class="depoimentos__item">
+                    <blockquote class="depoimentos__texto">
+                        Recomendo fortemente a agência de viagens Jornada. Eles oferecem um serviço personalizado e de alta qualidade que excedeu minhas expectativas em minha última viagem.
+                    </blockquote>
+                    <footer class="depoimentos__autor">
+                        <img class="depoimentos__autor--foto" src="./img/avatar-amari@2x.png" alt="Foto de Amari Salin" />
                         <div class="depoimentos__autor--info">
                             <b class="depoimentos__autor--nome">Amari Salin</b>
                             <div class="depoimentos__autor--avaliacao">
-                                <img class="depoimentos__autor--avaliacao-estrela" alt="" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" alt="" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" alt="" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" alt="" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" alt="" src="./img/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="depoimentos__item">
-                    <div class="depoimentos__texto">
-                        Minha viagem com a Jornada foi incrível! Recomendo muito a
-                        agência para quem busca uma experiência emocionante e
-                        personalizada.
-                    </div>
-                    <div class="depoimentos__autor">
-                        <img class="depoimentos__autor--foto" alt="" src="./img/avatar-lauro@2x.png" />
+                    </footer>
+                </article>
+
+                <article class="depoimentos__item">
+                    <blockquote class="depoimentos__texto">
+                        Minha viagem com a Jornada foi incrível! Recomendo muito a agência para quem busca uma experiência emocionante e personalizada.
+                    </blockquote>
+                    <footer class="depoimentos__autor">
+                        <img class="depoimentos__autor--foto" src="./img/avatar-lauro@2x.png" alt="Foto de Lauro B. Matos" />
                         <div class="depoimentos__autor--info">
                             <b class="depoimentos__autor--nome">Lauro B. Matos</b>
                             <div class="depoimentos__autor--avaliacao">
-                                <img class="depoimentos__autor--avaliacao-estrela" alt="" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" alt="" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" alt="" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" alt="" src="./img/star-1.svg" />
-                                <img class="depoimentos__autor--avaliacao-estrela" alt="" src="./img/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
+                                <img class="depoimentos__autor--avaliacao-estrela" src="./img/star-1.svg" alt="Avaliação 5 estrelas" />
                             </div>
                         </div>
-                    </div>
-                </div>
-
+                    </footer>
+                </article>
             </div>
-        </div>
+        </section>
     </main>
 
-    <img class="pre-footer__image" alt="" src="./img/pre-footer-image.png" />
-    
+    <!-- Imagem Pré-Rodapé -->
+    <img class="pre-footer__image" alt="Imagem decorativa pré-rodapé" src="./img/pre-footer-image.png" />
+
+    <!-- Rodapé -->
     <footer class="footer__container">
         <div class="footer">
             <div class="footer__logo-container">
-                <img class="footer__logo-icon" alt="" src="./img/logobranco-1@2x.png" />
+                <img class="footer__logo-icon" alt="Logo da empresa" src="./img/logobranco-1@2x.png" />
                 <div class="footer__info-container">
-                    <div class="footer__text-info">
-                        Horário de atendimento: 08h - 20h (Segunda a Sábado)
-                    </div>
-                    <div class="footer__text-info">
-                        Desenvolvido por Alura. Projeto fictício sem fins comerciais.
-                    </div>
+                    <p class="footer__text-info">Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+                    <p class="footer__text-info">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
                 </div>
             </div>
+            
             <div class="footer__social-media-container">
-                <div class="footer__social-media-text">Acesse nossas redes:</div>
+                <p class="footer__social-media-text">Acesse nossas redes:</p>
                 <div class="footer__social-media-icons">
-                    <a href="">
-                        <img class="footer__social-media-icon" alt="" src="./img/whatsapp-1.svg" />
+                    <a href="#" aria-label="WhatsApp">
+                        <img class="footer__social-media-icon" src="./img/whatsapp-1.svg" alt="Ícone do WhatsApp" />
                     </a>
-                    <a href="">
-                        <img class="footer__social-media-icon" alt="" src="./img/instragam-1.svg" />
+                    <a href="#" aria-label="Instagram">
+                        <img class="footer__social-media-icon" src="./img/instragam-1.svg" alt="Ícone do Instagram" />
                     </a>
-                    <a href="">
-                        <img class="footer__social-media-icon" alt="" src="./img/twiter-1.svg" />
+                    <a href="#" aria-label="Twitter">
+                        <img class="footer__social-media-icon" src="./img/twiter-1.svg" alt="Ícone do Twitter" />
                     </a>
                 </div>
             </div>
         </div>
     </footer>
-
-
 </body>
 
 </html>
