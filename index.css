@@ -1,6 +1,6 @@
 /* Cabeçalho */
 .cabecalho__container {
-    background: var(--preto);
+    background: var(--cor-fundo);
     width: 100%;
     padding: 40px 0;
 }
@@ -27,11 +27,10 @@
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
-    
 }
 
 .cabecalho__navegacao--item a {
-    color: var(--branco);
+    color: var(--cor-texto-claro);
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
@@ -49,14 +48,13 @@
 
 .banner__img-descricao {
     max-width: 1200px;
-    color: var(--grafite);
+    color: var(--cor-secundaria);
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
     line-height: 1.5;
     margin: 110px auto;
 }
-
 
 /* Container geral */
 .container {
@@ -87,7 +85,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1.5rem 2rem;
-    color: var(--branco);
+    color: var(--cor-texto-claro);
     flex: 1 0 calc(50% - 3rem);
     box-sizing: border-box;
     text-align: center;
@@ -110,7 +108,7 @@
 }
 
 .ofertas__card--destino-tipo {
-    color: var(--branco);
+    color: var(--cor-texto-claro);
     text-align: center;
     font-size: 1.25rem;
     font-style: normal;
@@ -134,7 +132,7 @@
 .destinos__item--botao,
 .ofertas__card--botao {
     border-radius: 0.5rem;
-    background: var(--vermelho);
+    background: var(--cor-primaria);
     padding: 1rem 3rem;
     display: inline-block;
 }
@@ -150,17 +148,15 @@
     font-style: normal;
     font-weight: 700;
     line-height: 2rem;
-    color: var(--branco);
-    
+    color: var(--cor-texto-claro);
 }
-
 
 /* Busca */
 .busca__categorias {
     display: flex;
     align-items: stretch;
     gap: 1.5rem;
-    margin-bottom: 112px;
+    margin-bottom: 7rem;
 }
 
 .busca__categorias-lista {
@@ -174,14 +170,14 @@
 }
 
 .busca__categoria {
-    color: var(--grafite);
+    color: var(--cor-secundaria);
     text-align: center;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     border-radius: 0.5rem;
-    background: var(--cinza-claro);
+    background: var(--cor-fundo-claro);
     padding: 0;
     flex: 1;
     display: flex;
@@ -191,14 +187,13 @@
     box-sizing: border-box;
 }
 
-
 figure.busca__categoria--icone {
     margin: 0;
     padding: 0;
 }
 
 span.material-symbols-outlined {
-    color: var(--cinza-escuro);
+    color: var(--cor-fundo-escuro);
     font-size: 80px;
     font-weight: 400;
 }
@@ -214,7 +209,6 @@ span.busca__categoria--nome {
     margin-top: 12px;
     display: block;
 }
-
 
 /* Destinos */
 .destinos__lista {
@@ -236,7 +230,7 @@ span.busca__categoria--nome {
 }
 
 .destinos__item--nome {
-    color: var(--grafite);
+    color: var(--cor-secundaria);
     font-size: 1.75rem;
     font-style: normal;
     font-weight: 700;
@@ -244,7 +238,7 @@ span.busca__categoria--nome {
 }
 
 .destinos__item--descricao {
-    color: var(--grafite);
+    color: var(--cor-secundaria);
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
@@ -264,14 +258,14 @@ span.busca__categoria--nome {
 }
 
 .pagamento__condicoes--destaque {
-    color: var(--grafite);
+    color: var(--cor-secundaria);
     font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
 
 .pagamento__condicoes--detalhes {
-    color: var(--grafite);
+    color: var(--cor-secundaria);
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 2rem;
@@ -290,7 +284,6 @@ span.busca__categoria--nome {
 .pagamento__imagens--imagem {
     max-width: 100%;
 }
-
 
 /* Depoimentos */
 .depoimentos {
@@ -311,7 +304,7 @@ span.busca__categoria--nome {
 }
 
 .depoimentos__texto {
-    color: var(--grafite);
+    color: var(--cor-secundaria);
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -328,7 +321,7 @@ span.busca__categoria--nome {
 }
 
 .depoimentos__autor--nome {
-    color: var(--grafite);
+    color: var(--cor-secundaria);
     text-align: center;
     font-size: 1.25rem;
     font-weight: 700;
@@ -336,10 +329,9 @@ span.busca__categoria--nome {
     margin-bottom: 0.5rem;
 }
 
-
 /* Roda Pé */
 .footer__container {
-    background: var(--preto);
+    background: var(--cor-fundo);
     width: 100%;
     padding: 2.5rem 0;
     margin-top: -0.25rem;
@@ -351,7 +343,7 @@ span.busca__categoria--nome {
     align-items: center;
     max-width: 75rem;
     margin: 0 auto;
-    color: var(--branco);
+    color: var(--cor-texto-claro);
 }
 
 .footer__logo-icon {
@@ -366,7 +358,7 @@ span.busca__categoria--nome {
 }
 
 .footer__text-info {
-    color: var(--neutral-c);
+    color: var(--cor-fundo-claro);
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
@@ -378,7 +370,7 @@ span.busca__categoria--nome {
 }
 
 .footer__social-media-text {
-    color: var(--neutral-c);
+    color: var(--cor-fundo-claro);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.75rem;
@@ -391,7 +383,7 @@ span.busca__categoria--nome {
 .destinos__titulo,
 .busca__titulo,
 .ofertas__titulo {
-    color: var(--grafite);
+    color: var(--cor-secundaria);
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
@@ -406,6 +398,6 @@ span.busca__categoria--nome {
 .ofertas__titulo--sublinhado {
     width: 180px;
     height: 0.25rem;
-    background: var(--vermelho);
+    background: var(--cor-primaria);
     margin: 1rem auto 0;
 }

@@ -1,22 +1,40 @@
 :root {
-    /* Colors */
-    --branco: #fff;
-    --preto: #000;
-    --neutral-c: #f5f5f5;
-    --cinza-escuro: #8c8c8c;
-    --grafite: #222;
-    --vermelho: #b81515;
+    /* Cores principais */
+    --cor-primaria: #b81515; /* Vermelho */
+    --cor-secundaria: #222; /* Grafite */
+    
+    /* Cores de fundo e texto */
+    --cor-fundo-claro: #f5f5f5; /* Neutro Claro */
+    --cor-fundo-escuro: #8c8c8c; /* Cinza Escuro */
+    --cor-texto: #222; /* Grafite */
+    --cor-texto-claro: #fff; /* Branco */
+    
+    /* Cores de fundo */
+    --cor-fundo: #000; /* Preto */
 }
 
-* {
-    font-family: Montserrat;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    font-family: Montserrat, Arial, sans-serif;
+    color: var(--cor-texto);
+    line-height: 1.6; /* Adiciona uma linha de altura mais legível */
 }
 
 a {
     text-decoration: none;
+    color: inherit; /* Para herdar a cor do elemento pai */
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: var(--cor-primaria); /* Altere para a cor desejada ao passar o mouse */
 }
