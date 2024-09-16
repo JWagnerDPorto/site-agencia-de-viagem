@@ -1,3 +1,4 @@
+/* Cabeçalho */
 .cabecalho__container {
     background: var(--preto);
     width: 100%;
@@ -5,8 +6,8 @@
 }
 
 .cabecalho {
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -31,12 +32,13 @@
 
 .cabecalho__navegacao--item a {
     color: var(--branco);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
+/* Banner */
 .banner__wrapper {
     margin: 0px;
 }
@@ -47,57 +49,28 @@
 
 .banner__img-descricao {
     max-width: 1200px;
-    color: var(--grafite, #222);
+    color: var(--grafite);
     text-align: center;
-    font-size: 32px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 1.5;
     margin: 110px auto;
 }
 
+
+/* Container geral */
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .ofertas {
-    margin-bottom: 112px;
-}
-
-.depoimentos__titulo,
-.pagamento__titulo,
-.destinos__titulo,
-.busca__titulo,
-.ofertas__titulo {
-    color: var(--grafite);
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-    margin-bottom: 64px;
-}
-
-.depoimentos__titulo--sublinhado,
-.pagamento__titulo--sublinhado,
-.destinos__titulo--sublinhado,
-.busca__titulo--sublinhado,
-.ofertas__titulo--sublinhado {
-    width: 180px;
-    height: 4px;
-    background: var(--vermelho);
-    margin: 0 auto;
-    margin-top: 16px;
-}
-
-img {
-    max-width: 100%;
+    margin-bottom: 7rem;
 }
 
 .ofertas__cards--grupo {
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -108,14 +81,14 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    border-radius: 16px;
+    gap: 1rem;
+    border-radius: 1rem;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 24px 32px;
+    padding: 1.5rem 2rem;
     color: var(--branco);
-    flex: 1 0 calc(50% - 48px);
+    flex: 1 0 calc(50% - 3rem);
     box-sizing: border-box;
     text-align: center;
 }
@@ -137,36 +110,32 @@ img {
 }
 
 .ofertas__card--destino-tipo {
-    color: var(--branco, #FFF);
+    color: var(--branco);
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
-    margin-bottom: 8px;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .ofertas__card--destino-nome {
-    font-size: 48px;
-    font-style: normal;
+    font-size: 3rem;
     font-weight: 700;
-    line-height: normal;
 }
 
 .ofertas__card--preco {
-    font-size: 40px;
-    font-style: normal;
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: normal;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
+/* Botões */
 .destinos__item--botao,
 .ofertas__card--botao {
-    border-radius: 8px;
-    background: var(--vermelho, #B81515);
-    padding: 16px 48px;
-    box-sizing: border-box;
+    border-radius: 0.5rem;
+    background: var(--vermelho);
+    padding: 1rem 3rem;
     display: inline-block;
 }
 
@@ -177,18 +146,20 @@ img {
 
 .destinos__item--botao-texto,
 .ofertas__card--botao-texto {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px;
-    color: var(--branco, #FFF);
+    line-height: 2rem;
+    color: var(--branco);
     
 }
 
+
+/* Busca */
 .busca__categorias {
     display: flex;
     align-items: stretch;
-    gap: 24px;
+    gap: 1.5rem;
     margin-bottom: 112px;
 }
 
@@ -196,21 +167,21 @@ img {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 1.5rem;
     list-style: none; 
     padding: 0;
     margin: 0; 
 }
 
 .busca__categoria {
-    color: var(--grafite, #222);
+    color: var(--grafite);
     text-align: center;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    border-radius: 8px;
-    background: var(--cinza-claro, #F5F5F5);
+    border-radius: 0.5rem;
+    background: var(--cinza-claro);
     padding: 0;
     flex: 1;
     display: flex;
@@ -227,16 +198,13 @@ figure.busca__categoria--icone {
 }
 
 span.material-symbols-outlined {
-    color: var(--cinza-escuro, #8C8C8C);
+    color: var(--cinza-escuro);
     font-size: 80px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-
 }
 
 a.busca__categoria--link {
-    padding: 16px 24px;
+    padding: 1rem 1.5rem;
     text-decoration: none; 
     color: inherit; 
     display: block;
@@ -248,11 +216,12 @@ span.busca__categoria--nome {
 }
 
 
+/* Destinos */
 .destinos__lista {
     display: flex;
     align-items: stretch;
-    gap: 24px;
-    margin-bottom: 112px;
+    gap: 1.5rem;
+    margin-bottom: 7rem;
 }
 
 .destinos__item {
@@ -267,49 +236,46 @@ span.busca__categoria--nome {
 }
 
 .destinos__item--nome {
-    color: var(--grafite, #222);
-    font-size: 28px;
+    color: var(--grafite);
+    font-size: 1.75rem;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    margin: 24px 0;
+    margin: 1.5rem 0;
 }
 
 .destinos__item--descricao {
-    color: var(--grafite, #222);
-    font-size: 20px;
+    color: var(--grafite);
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
-    margin-bottom: 24px;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
 }
 
+/* Pagamento */
 .pagamento {
-    margin-bottom: 112px;
+    margin-bottom: 7rem;
 }
 
 .pagamento__imagens--grupo,
 .pagamento__condicoes {
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .pagamento__condicoes--destaque {
-    color: var(--grafite, #222);
-    font-size: 28px;
-    font-style: normal;
+    color: var(--grafite);
+    font-size: 1.75rem;
     font-weight: 700;
-    line-height: normal;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .pagamento__condicoes--detalhes {
-    color: var(--grafite, #222);
-    font-size: 20px;
-    font-style: normal;
+    color: var(--grafite);
+    font-size: 1.25rem;
     font-weight: 400;
-    line-height: 32px;
-    width: 384px;
+    line-height: 2rem;
+    width: 24rem;
     max-width: 100%;
 }
 
@@ -318,20 +284,22 @@ span.busca__categoria--nome {
 }
 
 .pagamento__imagens--imagem-destaque {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .pagamento__imagens--imagem {
     max-width: 100%;
 }
 
+
+/* Depoimentos */
 .depoimentos {
-    margin-bottom: 112px;
+    margin-bottom: 7rem;
 }
 
 .depoimentos__wrapper {
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
     align-items: stretch;
 }
 
@@ -343,17 +311,16 @@ span.busca__categoria--nome {
 }
 
 .depoimentos__texto {
-    color: var(--grafite, #222);
-    font-size: 16px;
+    color: var(--grafite);
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
 }
 
 .depoimentos__autor {
     margin-top: 12px;
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .depoimentos__autor--foto {
@@ -361,48 +328,49 @@ span.busca__categoria--nome {
 }
 
 .depoimentos__autor--nome {
-    color: var(--grafite, #222);
+    color: var(--grafite);
     text-align: center;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 1.25rem;
     font-weight: 700;
-    line-height: 32px;
-    margin-bottom: 8px;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
 }
 
+
+/* Roda Pé */
 .footer__container {
     background: var(--preto);
     width: 100%;
-    padding: 40px 0;
-    margin-top: -4px;
+    padding: 2.5rem 0;
+    margin-top: -0.25rem;
 }
 
 .footer {
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
-    color: var(--branco, #FFF);
+    color: var(--branco);
 }
 
 .footer__logo-icon {
-    max-width: 160px;
-    margin-bottom: 16px;
+    max-width: 10rem;
+    margin-bottom: 1rem;
 }
 
 .footer__info-container {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .footer__text-info {
-    color: var(--neutral-c, #F5F5F5);
-    font-size: 20px;
+    color: var(--neutral-c);
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 2rem;
 }
 
 .footer__social-media-container {
@@ -410,10 +378,34 @@ span.busca__categoria--nome {
 }
 
 .footer__social-media-text {
-    color: var(--neutral-c, #F5F5F5);
-    font-size: 16px;
-    font-style: normal;
+    color: var(--neutral-c);
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 28px;
-    margin-bottom: 16px;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+/* Títulos principais */
+.depoimentos__titulo,
+.pagamento__titulo,
+.destinos__titulo,
+.busca__titulo,
+.ofertas__titulo {
+    color: var(--grafite);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+/* Sublinhados dos títulos */
+.depoimentos__titulo--sublinhado,
+.pagamento__titulo--sublinhado,
+.destinos__titulo--sublinhado,
+.busca__titulo--sublinhado,
+.ofertas__titulo--sublinhado {
+    width: 180px;
+    height: 0.25rem;
+    background: var(--vermelho);
+    margin: 1rem auto 0;
 }
